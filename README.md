@@ -12,7 +12,7 @@ After idle for a while, Heroku falls asleep and id counter goes back to 1.
 # Heroku tips
 heroku create
 
-heroku git:remote -a yourapp
+heroku git:remote -a your_app_name_just_created
 
 heroku buildpacks:set heroku/java
 
