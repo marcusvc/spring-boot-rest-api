@@ -8,3 +8,16 @@ After idle for a while, Heroku falls asleep and id counter goes back to 1.
 
 - https://infinite-waters-58424.herokuapp.com/greeting?name=value
   > {"id":n,"content":"Hello, value!"}
+
+# Heroku tips
+heroku create
+
+heroku git:remote -a yourapp
+
+heroku buildpacks:set heroku/java
+
+git push heroku master
+
+heroku open
+
+heroku logs
